@@ -1,0 +1,108 @@
+# CODEX Empirical Validation Framework v1.0.0
+
+**Author:** Kemar Armando Morrison  
+**Affiliation:** Codex Sovereign System, UK Division  
+**DOI:** https://doi.org/10.5281/zenodo.18703338  
+**Repository:** https://github.com/kemarovokam-gif/codex-empirical-validation  
+
+---
+
+## Overview
+
+The CODEX Empirical Validation Framework provides a reproducible execution and verification infrastructure for invariant-governed computation. The framework implements an execution gate architecture designed to enforce deterministic state transitions and eliminate uncontrolled semantic drift and hallucination in adaptive computational systems.
+
+This repository contains the complete source implementation, benchmark datasets, execution harness, validation reports, and automated reproducibility workflows.
+
+---
+
+## Key Properties
+
+- Deterministic execution under invariant constraints
+- Zero invariant violations across governed transitions
+- Zero hallucination events detected under benchmark testing
+- Replay-verifiable execution paths
+- Fully automated validation pipeline via GitHub Actions
+- Independent reproducibility and audit capability
+
+---
+
+## Validation Results
+
+Total governed transitions executed: **10,000**
+
+Observed outcomes:
+
+- Invariant violations: **0**
+- Hallucination events: **0**
+- Replay mismatches: **0**
+- Execution consistency: **100% reproducible**
+
+All validation reports are included in the `/reports` directory.
+
+---
+
+## Repository Structure
+codex-empirical-validation/
+│
+├── datasets/
+│   ├── drift_suite_v1.jsonl
+│   └── hallucination_suite_v1.jsonl
+│
+├── src/
+│   ├── execution_gate.py
+│   ├── invariant.py
+│   └── evaluator.py
+│
+├── tests/
+│   └── test_zero_drift.py
+│
+├── reports/
+│   └── validation_report.json
+│
+├── run_eval.py
+├── run_benchmark.py
+├── requirements.txt
+└── README.md
+---
+
+## Running Validation
+
+Clone repository:
+Install dependencies:
+Run validation:
+Output will be generated in:
+---
+
+## Continuous Integration
+
+This repository includes automated CI workflows located in:
+Each commit triggers automated validation to ensure reproducibility and execution integrity.
+
+---
+
+## Artifact Reference
+
+Zenodo archival artifact:
+
+https://doi.org/10.5281/zenodo.18703338
+
+This provides a permanent, timestamped scientific record of the validation framework and results.
+
+---
+
+## Purpose
+
+This framework establishes a reproducible empirical baseline for invariant-preserving execution and provides a verifiable reference implementation for governed computational systems.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Contact
+
+Kemar Armando Morrison  
+kemar.morrison@ou.ac.uk  
